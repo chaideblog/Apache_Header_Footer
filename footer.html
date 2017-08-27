@@ -1,0 +1,17 @@
+	</div>
+
+	<script>
+		document.getElementById("indexlist").getElementsByTagName("tbody")[0].getElementsByClassName('indexhead')[0].getElementsByClassName("indexcoldesc")[0].innerHTML = "Operation";
+		document.getElementById("indexlist").getElementsByTagName("tbody")[0].getElementsByClassName('indexhead')[0].getElementsByClassName("indexcoldesc")[0].style.color = "blue";
+		var operEven = document.getElementById("indexlist").getElementsByTagName("tbody")[0].getElementsByClassName('even');
+		for (var i = 0; i < operEven.length; i++) {
+			operEven[i].getElementsByClassName('indexcoldesc')[0].innerHTML = "<form action=\"form_action.asp\" method=\"get\"><button type=\"submit\" value=\"Submit\">删除</button><button type=\"reset\" value=\"Reset\">重命名</button></form>";
+		}
+		var operOdd = document.getElementById("indexlist").getElementsByTagName("tbody")[0].getElementsByClassName('odd');
+		for (var i = 0; i < operOdd.length; i++) {
+			operOdd[i].getElementsByClassName('indexcoldesc')[0].innerHTML = "<form action=\"form_action.asp\" method=\"get\"><button type=\"submit\" value=\"Submit\">删除</button><button type=\"reset\" value=\"Reset\">重命名</button></form>";
+		}
+	</script>
+
+</body>
+</html>

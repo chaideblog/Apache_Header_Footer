@@ -1,0 +1,93 @@
+#indexlist {
+    border-collapse: collapse;
+    min-width: 100%
+}
+
+tr.indexhead {
+    position: relative;
+    padding: 0px;
+    margin-bottom: -1px;
+    font-size: 16px;
+    line-height: 20px;
+    color: blue;
+    background-color: #f1f8ff;
+    border: 1px solid #c8e1ff
+}
+
+tr.indexhead th.indexcolicon {
+    border-left: -1px solid #f1f8ff;
+    border-right: -1px solid #f1f8ff
+}
+
+tr.indexhead th.indexcolname {
+    border-left: -1px solid #f1f8ff;
+    border-right: -1px solid #f1f8ff
+}
+
+tr.indexhead th.indexcollastmod {
+    border-left: -1px solid #f1f8ff;
+    border-right: -1px solid #f1f8ff
+}
+
+tr.indexhead th.indexcolsize {
+    border-left: -1px solid #f1f8ff;
+    border-right: -1px solid #f1f8ff
+}
+
+tr.indexhead th.indexcoldesc {
+    border-left: -1px solid #f1f8ff;
+    border-right: -1px solid #f1f8ff
+}
+
+tr.indexbreakrow {
+    display: none    
+}
+
+tr.even, tr.odd {
+    margin-bottom: 10px;
+    border: 1px solid #dfe2e5;
+    border-top: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+
+tr.even:hover, tr.odd:hover {
+    background-color: #ececec
+}
+
+tr.even td.indexcolicon {
+    text-align: center;
+
+}
+
+tr.even td.indexcollastmod {
+    text-align: center;
+}
+
+tr.even td.indexcolsize {
+    text-align: center;
+}
+
+tr.even td.indexcoldesc {
+
+}
+
+tr.odd td.indexcolicon {
+    text-align: center;
+}
+
+tr.odd td.indexcollastmod {
+    text-align: center;
+}
+
+tr.odd td.indexcolsize {
+    text-align: center;
+}
+
+tr.odd td.indexcoldesc {
+
+}
+
+a {
+    text-decoration: none
+}
